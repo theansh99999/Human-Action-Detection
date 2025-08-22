@@ -49,13 +49,13 @@ model/action_recognition_kinetics.txt
       In recognise_human_activity.py select self.VIDEO_PATH = "test/example1.mp4"
       
 ###📂 Project Structure
--├── model/
--│   ├── resnet-34_kinetics.onnx
--│   ├── action_recognition_kinetics.txt
--├── test/
--│   ├── example1.mp4
--├── recognise_human_activity.py
--└── README.md
+├── model/
+│   ├── resnet-34_kinetics.onnx
+│   ├── action_recognition_kinetics.txt
+├── test/
+│   ├── example1.mp4
+├── recognise_human_activity.py
+└── README.md
 ##📌 Use Cases
 
 🎯 Smart surveillance
