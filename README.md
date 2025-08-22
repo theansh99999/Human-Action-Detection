@@ -41,14 +41,14 @@ model/resnet-34_kinetics.onnx
 model/action_recognition_kinetics.txt
 
 ###4. Run recognise_human_activity.py
-  If want to use webcam then :
+  ####If want to use webcam then :
     In recognise_human_activity.py select self.VIDEO_PATH = None
     
-  If want to use vedio then:
+  ####If want to use vedio then:
     Insert vedio in test folder then 
       In recognise_human_activity.py select self.VIDEO_PATH = "test/example1.mp4"
       
-📂 Project Structure
+###📂 Project Structure
 ├── model/
 │   ├── resnet-34_kinetics.onnx
 │   ├── action_recognition_kinetics.txt
@@ -56,19 +56,19 @@ model/action_recognition_kinetics.txt
 │   ├── example1.mp4
 ├── recognise_human_activity.py
 └── README.md
-📌 Use Cases
+##📌 Use Cases
 
 🎯 Smart surveillance
 🖐️ Gesture & human-computer interaction
 🏃 Sports performance analysis
 🧑‍🤝‍🧑 Crowd behavior monitoring
 
-🔮 Future Improvements
+##🔮 Future Improvements
 Add support for multiple persons in a frame
 Improve FPS performance with GPU acceleration
 Integrate with Flask/Streamlit for web dashboard
 
-⚡ Author
+##⚡ Author
 
 Project implemented and customized by Ansh kumar ✨
 git clone https://github.com/<your-username>/human-action-recognition.git
