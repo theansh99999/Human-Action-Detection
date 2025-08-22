@@ -9,9 +9,10 @@ It can process input from a **live webcam** (or video file) and predict the **hu
 - 🎥 Real-time detection using **webcam feed** or pre-recorded video  
 - 🧠 Powered by **ResNet-34 ONNX model** trained on **Kinetics-400 dataset**  
 - ⚡ Fast & lightweight implementation with **Python + OpenCV + NumPy**  
-- ⌨️ Simple controls → Press **`q`** to exit  
+- ⌨️ Simple controls → Press **`q`** to exit 
 
 ---
+
 
 ## 🛠️ Tech Stack
 - **Python 3.6+**  
@@ -20,6 +21,7 @@ It can process input from a **live webcam** (or video file) and predict the **hu
 - **ONNX Runtime**  
 
 ---
+
 
 ## 🚀 How to Run
 
@@ -37,12 +39,15 @@ Place it inside the model/ directory like this:
 Bash 
 model/resnet-34_kinetics.onnx
 model/action_recognition_kinetics.txt
+
 ###4. Run recognise_human_activity.py
   If want to use webcam then :
     In recognise_human_activity.py select self.VIDEO_PATH = None
+    
   If want to use vedio then:
     Insert vedio in test folder then 
       In recognise_human_activity.py select self.VIDEO_PATH = "test/example1.mp4"
+      
 📂 Project Structure
 ├── model/
 │   ├── resnet-34_kinetics.onnx
