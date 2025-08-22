@@ -27,49 +27,52 @@ It can process input from a **live webcam** (or video file) and predict the **hu
 
 ### 1. Clone the repository
 bash
-###2. Install dependencies
-pip install -r requirements.txt
-or manually install: pip install opencv-python numpy onnxruntime
-###3. Download Model
+bash
+git clone https://github.com/<your-username>/human-action-recognition.git <br>
+cd human-action-recognition <br>
+### 2. Install dependencies
+pip install -r requirements.txt <br>
+or manually install: pip install opencv-python numpy onnxruntime <br>
+### 3. Download Model
 
-Download the pre-trained model from:
-🔗 ResNet-34 Kinetics ONNX Model
+Download the pre-trained model from: <br>
+🔗 ResNet-34 Kinetics ONNX Model <br>
 
-Place it inside the model/ directory like this:
-Bash 
-model/resnet-34_kinetics.onnx
-model/action_recognition_kinetics.txt
+Place it inside the model/ directory like this: <br>
+Bash <br>
+model/resnet-34_kinetics.onnx <br>
+model/action_recognition_kinetics.txt <br>
 
 ###4. Run recognise_human_activity.py
   ####If want to use webcam then :
     In recognise_human_activity.py select self.VIDEO_PATH = None
     
-  ####If want to use vedio then:
+  #### If want to use vedio then:
     Insert vedio in test folder then 
       In recognise_human_activity.py select self.VIDEO_PATH = "test/example1.mp4"
       
-###📂 Project Structure
-├── model/
-│   ├── resnet-34_kinetics.onnx
-│   ├── action_recognition_kinetics.txt
-├── test/
-│   ├── example1.mp4
-├── recognise_human_activity.py
-└── README.md
-##📌 Use Cases
+### 📂 Project Structure
+├── model/ <br>
+│   ├── resnet-34_kinetics.onnx <br>
+│   ├── action_recognition_kinetics.txt <br>
+├── test/ <br>
+│   ├── example1.mp4 <br>
+├── recognise_human_activity.py <br>
+└── README.md <br>
+## 📌 Use Cases
 
-🎯 Smart surveillance
-🖐️ Gesture & human-computer interaction
-🏃 Sports performance analysis
-🧑‍🤝‍🧑 Crowd behavior monitoring
+🎯 Smart surveillance <br>
+🖐️ Gesture & human-computer interaction <br>
+🏃 Sports performance analysis <br>
+🧑‍🤝‍🧑 Crowd behavior monitoring <br>
 
-##🔮 Future Improvements
-Add support for multiple persons in a frame
-Improve FPS performance with GPU acceleration
-Integrate with Flask/Streamlit for web dashboard
+## 🔮 Future Improvements
+### Add support for multiple persons in a frame <br>
+### Improve FPS performance with GPU acceleration <br>
+### Integrate with Flask/Streamlit for web dashboard <br>
 
-##⚡ Author
+## ⚡ Author
 
-Project implemented and customized by Ansh kumar ✨
-git clone https://github.com/theansh99999/human-action-recognition.git
-cd human-action-recognition
+Project implemented and customized by Ansh kumar ✨<br>
+git clone https://github.com/theansh99999/human-action-recognition.git <br>
+cd human-action-recognition <br>
