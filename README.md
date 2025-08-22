@@ -71,5 +71,5 @@ Integrate with Flask/Streamlit for web dashboard
 ##⚡ Author
 
 Project implemented and customized by Ansh kumar ✨
-git clone https://github.com/<your-username>/human-action-recognition.git
+git clone https://github.com/theansh99999/human-action-recognition.git
 cd human-action-recognition
